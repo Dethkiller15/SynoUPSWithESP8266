@@ -5,6 +5,13 @@ Know that you can easily shut your NAS off with just the bash script however you
 
 That is what the ESP8266 is for.
 
+# How does the ESP8266 work?
+Well I have the script set up so that it sends a "Magic Packet" to the MAC address of the device with WOL enabled and turn it on.
+
+The ESP8266 will boot within 30 seconds of it getting power from what I have seen so far with mine.
+
+Once you get these scripts set up the management fo your server being powered on and off are 100% dependent on you making sure the ESP8266 is plugged in at all times. I have mine plugged into an non battery backed up AC outlet on my UPS for consistancy.
+
 ## NAS Setup 1
 You can just throw the bash script anywhere on your NAS as long as you have root priviliges and save the location for later.
 
